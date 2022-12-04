@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require 'rails/all'
+require 'rails'
+require 'active_record/railtie'
+require 'action_controller/railtie'
 require 'logstash-logger'
 require 'logstash-logger/railtie'
 
